@@ -1,1 +1,13 @@
 /* write your override styles here */
+#parent{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#wall{
+    position: absolute;
+    height: 900;
+    width: 620;
+}
+body div#wall div.parent div > #tag-7.slick {
+    background: url(../images/tag-7.png) no-repeat;
+    z-index: 2;
+    display: block;
